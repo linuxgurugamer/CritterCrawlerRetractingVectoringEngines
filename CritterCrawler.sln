@@ -1,7 +1,19 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritterCrawler", "CritterCrawler.csproj", "{9ECA02D7-FD71-4D30-8A1B-624F0785D0A0}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritterCrawler", "Source\CritterCrawler.csproj", "{9ECA02D7-FD71-4D30-8A1B-624F0785D0A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62E72051-EF60-4518-8B94-07476A44C99E}"
+	ProjectSection(SolutionItems) = preProject
+		buildRelease.bat = buildRelease.bat
+		Changelog.txt = Changelog.txt
+		CritterCrawlerRetractingVectoringEngines.version = CritterCrawlerRetractingVectoringEngines.version
+		deploy.bat = deploy.bat
+		jenkins.txt = jenkins.txt
+		License.txt = License.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +25,12 @@ Global
 		{9ECA02D7-FD71-4D30-8A1B-624F0785D0A0}.Debug|x86.Build.0 = Debug|x86
 		{9ECA02D7-FD71-4D30-8A1B-624F0785D0A0}.Release|x86.ActiveCfg = Release|x86
 		{9ECA02D7-FD71-4D30-8A1B-624F0785D0A0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA262897-2CC5-4E6E-8504-805DEE2E027C}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = CritterCrawler.csproj
