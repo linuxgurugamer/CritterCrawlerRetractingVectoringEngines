@@ -26,7 +26,7 @@ rem README is the readme file
 set GAMEDIR=BahaSP
 set GAMEDATA="GameData\"
 set VERSIONFILE=CritterCrawlerRetractingVectoringEngines.version
-set LICENSE=License.txt
+set LICENSE=PartsLicense.txt
 set README=
 
 set RELEASEDIR=d:\Users\jbb\release
