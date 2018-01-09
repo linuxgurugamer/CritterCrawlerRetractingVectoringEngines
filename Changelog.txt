@@ -1,3 +1,6 @@
+1.3.1
+	Replaced TGA with DDS files, saves space and time, thanks @MeCripp
+
 1.3.0
 	Adoption by Linuxgurugamer
 	Rewrite legs to use KSPWheel
