@@ -1,3 +1,6 @@
+1.3.2.1
+	Fixed node at bottom of Critter Crawler
+
 1.3.2
 	Reverted TGA files for the Vector effects
 	Moved curved RCS port into it's own folder
