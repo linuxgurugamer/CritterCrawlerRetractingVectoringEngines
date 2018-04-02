@@ -1,0 +1,75 @@
+//  - B.Dynamics -
+
+// This file provided by forum user @ISE
+//
+//  - Control 
+//
+@PART[bd125vectorjet] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[RetRCSBlockC] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[bdMiniJet] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[RetRCSBlock] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[bahaRetractEngine] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[bahaSRadialEngine] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+@PART[bahaTrrEngine] 
+{
+	#@TWEAKSCALEBEHAVIOR[Engine]/MODULE[TweakScale] { }
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
+
+
+
+//
+//  - Electrical 
+//
+@PART[bdSpotlightTurret] 
+{
+	%MODULE[TweakScale]
+	{
+		type = free
+	}
+}
