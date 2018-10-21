@@ -1,3 +1,6 @@
+1.3.3.2
+	Version bump for 1.5 rebuild
+
 1.3.3.1
 	Fixed RCS Emissions 
 	Updated version file to allow for all of 1.4.1+
