@@ -1,3 +1,6 @@
+1.3.4.1
+	Fixed old typo in a part related to the bulkheadProfiles
+	
 1.3.4
 	Added bulkheadProfiles to the following parts:
 		CritterCrawler
