@@ -1,3 +1,7 @@
+1.3.4.2
+	Version bump for 1.7.2
+	Updated AssemblyVersion.tt for location-independent builds
+
 1.3.4.1
 	Fixed old typo in a part related to the bulkheadProfiles
 	
