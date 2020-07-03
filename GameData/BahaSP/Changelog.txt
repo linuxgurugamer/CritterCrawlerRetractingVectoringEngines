@@ -1,7 +1,22 @@
+1.3.6
+* Added tags.
+* Rebalanced rocket engines:
+  * VTx-202: I've made it into a mid-point between the Reliant engine (good thrust with 310s Isp in vac, 265s ASL) and the Terrier (345s | 85s) by giving it 325s in vac, 195s ASL.
+  * TRR-1: I've changed it to have 330s vac | 132s ASL from its original 325s | 235s. It now competes with the "Pug" vacuum engine from Restock Plus.
+  * ILX-40: I've changed its Isp from 370s vac | 325s ASL to 305s vac | 275s ASL and slightly buffed its thrust, slightly lowered its mass. It now has 88% the mass and thrust of the Thud engine.
+
+* Rebalanced jet engines:
+  * XJ-48k Vector: Fixed excessive or obsolete settings that drive its performance as an engine. It's also set to become very thrusty and to lose efficiency at Mach 2 (Isp starts at 8000s but falls to 4000s. Isp changing by velocity is a stock feature) and work up to about Mach 3.1. It should be a bit of "Panther jet on steroids."
+  * MJ-88 Mini Vector: basically made it like the stock J-20 Juno.
+
+* Other fixes such as: Check (mostly reduce) heat production in the engine modules (many of them are really really high), add missing keys to draw the Oxidizer gauge in staging when LFO engines are on, and raise heat limits from 2000K to 2500K, granting that much needed better survivability over stock engines. The jet engines also get their atmo power curves expanded so they rightfully produce more thrust in thicker atmospheres. (This does not mean they gain Isp.) And the rocket Isp curves are also extended to whatever atmo pressure they would logically flameout at. 
+
+
 v1.2.0
 -KSP 1.0+ compatibility
 -Minor improvements to Critter Crawler
 -New velocity and atmosphere curves for xj-48k vector jet
+
 
 v1.1.1
 -updated BDAnimationModules.dll for dV and heat issues fix
