@@ -1,5 +1,9 @@
 ChangeLog
 
+1.3.6.2
+	Updated version file to use github for new version info
+	Copy webpage to README.md
+
 1.3.6.1
 	Added AssemblyFileVersion
 	Updated version file for 1.12
